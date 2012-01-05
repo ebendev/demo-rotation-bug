@@ -1,0 +1,3 @@
+I have a WPF app that I'm testing on a Samsung XE700T1A tablet. I have no other tablets to test it on. Upon launching the app, when I rotate the tablet to portrait mode, my UI elements stop responding to touch. They continue to ignore touch after rotating back to landscape again, but then after rotating a third time back to portrait, touch works. Further rotations seem to have indeterminate results. Sometimes touch works, sometimes you have to keep rotating to get it back. I have seen an occasional variation in that initial sequence, but for the most part it appears very consistent.
+
+In order to narrow down the range of possibilities, I created this simple WPF app to demonstrate the issue.
